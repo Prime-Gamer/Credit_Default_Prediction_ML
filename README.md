@@ -1,20 +1,24 @@
-# **Credit Default Prediction ML**  
-*A Machine Learning model to predict credit default risk using CatBoost*  
+# **Credit Default Prediction ML**
+
+*A Machine Learning model to predict credit default risk using CatBoost*
 
 ---
 
-## **📌 Overview**  
-This project predicts the likelihood of credit default using a **CatBoost Classifier**. It includes:  
-- **Data preprocessing** (cleaning, merging, encoding)  
-- **Feature engineering** (handling missing values, categorical features)  
-- **Model training & evaluation** (CatBoost with hyperparameter tuning)  
-- **Streamlit web app** for interactive predictions  
+## **📌 Overview**
 
-🔗 **Live Demo (if deployed):** [Streamlit App Link](#) *(Replace with your deployment link)*  
+This project predicts the likelihood of credit default using a **CatBoost Classifier**. It includes:
+
+- **Data preprocessing** (cleaning, merging, encoding)
+- **Feature engineering** (handling missing values, categorical features)
+- **Model training & evaluation** (CatBoost with hyperparameter tuning)
+- **Streamlit web app** for interactive predictions
+
+🔗 **Live Demo (if deployed):** [Streamlit App Link](#) *(Replace with your deployment link)*
 
 ---
 
-## **📂 Directory Structure**  
+## **📂 Directory Structure**
+
 ```plaintext
 prime-gamer-credit_default_prediction_ml/
 ├── config.yml               # Configuration file
@@ -40,68 +44,77 @@ prime-gamer-credit_default_prediction_ml/
 
 ---
 
-## **🖼️ Screenshots**  
-### **1️⃣ Before Prediction**  
-*(Insert screenshot of the Streamlit app input form here)*  
-📌 *Example:* User fills in customer details (income, credit score, etc.).  
+## **🖼️ Screenshots**
 
-### **2️⃣ After Prediction**  
-*(Insert screenshot of the prediction result here)*  
-📌 *Example:* Model outputs **"High Risk"** or **"Low Risk"** with confidence score.  
+### **1️⃣ Before Prediction**
 
-*(Replace with your actual screenshots!)*  
+![Streamlit](Screenshot_20250523_005912.png)
+📌 *Example:* User fills in customer details (income, credit score, etc.).
+
+### **2️⃣ After Prediction**
+
+![Streamlit](Screenshot_20250523_010137.png)
+📌 *Example:* Model outputs **P1, P2, P3, P4** categories
 
 ---
 
-## **🚀 Quick Start**  
-### **1. Clone the Repository**  
+## **🚀 Quick Start**
+
+### **1. Clone the Repository**
+
 ```bash
 git clone https://github.com/Prime-Gamer/Credit_Default_Prediction_ML.git
 cd Credit_Default_Prediction_ML
 ```
 
-### **2. Install Dependencies**  
+### **2. Install Dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3. Run the Streamlit App**  
+### **3. Run the Streamlit App**
+
 ```bash
 streamlit run streamlit_app/app.py
 ```
-*(Open `http://localhost:8501` in your browser)*  
 
-### **4. Train the Model (Optional)**  
+*(Open `http://localhost:8501` in your browser)*
+
+### **4. Train the Model (Optional)**
+
 ```bash
 python main.py
 ```
-*(Uses `config.yml` for settings.)*  
+
+*(Uses `config.yml` for settings.)*
 
 ---
 
-## **🛠️ Tech Stack**  
-- **Python** (Pandas, NumPy, Scikit-learn)  
-- **CatBoost** (Gradient Boosting for classification)  
-- **Streamlit** (Web app deployment)  
-- **Jupyter Notebook** (EDA & analysis)  
+## **🛠️ Tech Stack**
+
+- **Python** (Pandas, NumPy, Scikit-learn)
+- **CatBoost** (Gradient Boosting for classification)
+- **Streamlit** (Web app deployment)
+- **Jupyter Notebook** (EDA & analysis)
 
 ---
 
-## **📝 Notes**  
-- Data sourced from `case_study1.xlsx` and `case_study2.xlsx`.  
-- Model performance metrics (accuracy, F1-score) can be found in `notebooks/eda.ipynb`.  
-- For large datasets, enable GPU in CatBoost (`task_type="GPU"` in `config.yml`).  
+## **📝 Notes**
+
+- Data sourced from `case_study1.xlsx` and `case_study2.xlsx`.
+- Model performance metrics (accuracy, F1-score) can be found in `notebooks/eda.ipynb`.
+- For large datasets, enable GPU in CatBoost (`task_type="GPU"` in `config.yml`).
 
 ---
 
-## **📜 License**  
-MIT License - See [LICENSE](LICENSE) (if applicable).  
+## **📜 License**
+
+MIT License - See [LICENSE](LICENSE) (if applicable).
 
 ---
 
-**👤 Author:** [Prime-Gamer](https://github.com/Prime-Gamer)  
-**🔗 Repo:** [GitHub Link](https://github.com/Prime-Gamer/Credit_Default_Prediction_ML)  
+**👤 Author:** [Prime-Gamer](https://github.com/Prime-Gamer)
+**🔗 Repo:** [GitHub Link](https://github.com/Prime-Gamer/Credit_Default_Prediction_ML)
 
 ---
-
-*(Replace placeholder screenshots with your actual images!)* 🎨

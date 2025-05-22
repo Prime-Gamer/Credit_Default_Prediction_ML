@@ -63,7 +63,7 @@ def main():
     print("\nSaving the best model...")
     save_model(best_model, config['model']['save_path'])
     
-    # 6. Visualization and Analysis
+    # 6. Visualization and Analysi
     print("\nGenerating visualizations...")
     best_model = joblib.load(config['model']['save_path'])
     encoded_df = pd.read_csv(config['data']['encoded_data'])
