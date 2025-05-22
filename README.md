@@ -13,8 +13,6 @@ This project predicts the likelihood of credit default using a **CatBoost Classi
 - **Model training & evaluation** (CatBoost with hyperparameter tuning)
 - **Streamlit web app** for interactive predictions
 
-🔗 **Live Demo (if deployed):** [Streamlit App Link](#) *(Replace with your deployment link)*
-
 ---
 
 ## **📂 Directory Structure**
@@ -114,7 +112,7 @@ MIT License - See [LICENSE](LICENSE) (if applicable).
 
 ---
 
-**👤 Author:** [Prime-Gamer](https://github.com/Prime-Gamer)
+**👤 Author:** [Naman Agrawal](https://github.com/Prime-Gamer)
 **🔗 Repo:** [GitHub Link](https://github.com/Prime-Gamer/Credit_Default_Prediction_ML)
 
 ---
